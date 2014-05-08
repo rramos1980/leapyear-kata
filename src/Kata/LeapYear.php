@@ -9,7 +9,8 @@ class LeapYear
 {
     public function checkYear($year)
     {
-        return ($this->isDivisibleByFour($year) && (!$this->isDivisibleByOneHundred($year) || $this->isDivisibleByFourHundreds($year)));
+        return ($this->isDivisibleByFour($year)
+            && (!$this->isDivisibleByOneHundred($year) || $this->isDivisibleByFourHundreds($year)));
     }
 
     /**
