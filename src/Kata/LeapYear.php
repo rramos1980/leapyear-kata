@@ -40,6 +40,6 @@ class LeapYear
      */
     private function isDivisibleByFourHundreds($year)
     {
-        return ($year % 400 === 0);
+        return $year % 400 === 0;
     }
 }
